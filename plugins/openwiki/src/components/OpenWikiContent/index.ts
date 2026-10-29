@@ -1,0 +1,1 @@
+export { OpenWikiContent } from './OpenWikiContent';

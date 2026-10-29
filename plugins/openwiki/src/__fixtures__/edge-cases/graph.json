@@ -1,0 +1,64 @@
+{
+  "root": "edge-cases",
+  "generatedAt": "2026-10-29T03:33:35.363Z",
+  "types": [
+    "Reference",
+    "Section"
+  ],
+  "nodes": [
+    {
+      "id": "architecture",
+      "title": "Architecture",
+      "type": "Reference",
+      "description": "Quoted description",
+      "tags": [
+        "alpha",
+        "beta"
+      ],
+      "body": "# Architecture\nSee [home](index.md) and [self](architecture.md).\n",
+      "size": 65,
+      "links": [
+        "index"
+      ],
+      "backlinks": [
+        "index"
+      ]
+    },
+    {
+      "id": "index",
+      "title": "Home",
+      "type": "Section",
+      "description": "",
+      "tags": [],
+      "body": "# Files\n[Arch](architecture.md)\n[Arch again](architecture.md)\n[missing](nope.md)\n",
+      "size": 81,
+      "links": [
+        "architecture"
+      ],
+      "backlinks": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "plain",
+      "title": "plain",
+      "type": "Reference",
+      "description": "",
+      "tags": [],
+      "body": "no heading, no frontmatter\n",
+      "size": 27,
+      "links": [],
+      "backlinks": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "architecture",
+      "target": "index"
+    },
+    {
+      "source": "index",
+      "target": "architecture"
+    }
+  ]
+}

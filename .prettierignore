@@ -1,0 +1,6 @@
+dist
+dist-types
+coverage
+.vscode
+# Real OpenWiki exports and their source Markdown must stay byte-exact.
+plugins/openwiki/src/__fixtures__/

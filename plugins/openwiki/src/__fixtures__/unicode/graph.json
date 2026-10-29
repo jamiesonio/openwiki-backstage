@@ -1,0 +1,90 @@
+{
+  "root": "unicode",
+  "generatedAt": "2026-10-29T03:33:33.754Z",
+  "types": [
+    "Reference",
+    "Section"
+  ],
+  "nodes": [
+    {
+      "id": "%E4%B8%80",
+      "title": "Literal percent-encoded filename",
+      "type": "Reference",
+      "description": "",
+      "tags": [],
+      "body": "# Literal percent-encoded filename\n",
+      "size": 35,
+      "links": [],
+      "backlinks": [
+        "literal"
+      ]
+    },
+    {
+      "id": "events/index",
+      "title": "Events",
+      "type": "Section",
+      "description": "",
+      "tags": [],
+      "body": "[Event](%E9%9D%96%E9%9A%BE%E4%B9%8B%E5%BD%B9%20%231%25.md)\n[Same event](%E9%9D%96%E9%9A%BE%E4%B9%8B%E5%BD%B9%20%231%25.md#details)\n[Person](../%E4%BA%BA%E7%89%A9/%E6%9C%B1%E6%A3%A3.md)\n",
+      "size": 185,
+      "links": [
+        "events/靖难之役 #1%",
+        "人物/朱棣"
+      ],
+      "backlinks": []
+    },
+    {
+      "id": "events/靖难之役 #1%",
+      "title": "Event",
+      "type": "Reference",
+      "description": "",
+      "tags": [],
+      "body": "# Event\n",
+      "size": 8,
+      "links": [],
+      "backlinks": [
+        "events/index"
+      ]
+    },
+    {
+      "id": "literal",
+      "title": "literal",
+      "type": "Reference",
+      "description": "",
+      "tags": [],
+      "body": "[Decode once](%25E4%25B8%2580.md)\n",
+      "size": 34,
+      "links": [
+        "%E4%B8%80"
+      ],
+      "backlinks": []
+    },
+    {
+      "id": "人物/朱棣",
+      "title": "Person",
+      "type": "Reference",
+      "description": "",
+      "tags": [],
+      "body": "# Person\n",
+      "size": 9,
+      "links": [],
+      "backlinks": [
+        "events/index"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "events/index",
+      "target": "events/靖难之役 #1%"
+    },
+    {
+      "source": "events/index",
+      "target": "人物/朱棣"
+    },
+    {
+      "source": "literal",
+      "target": "%E4%B8%80"
+    }
+  ]
+}
